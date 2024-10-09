@@ -34,7 +34,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 ```bash
   python test_wsi.py
 ```
-- After running the inference, you will obtain the following outputs:
+- After running the inference, you will obtain the following outputs in `test_wsi` folder:
   - A thumbnail image of WSI
   - A thumbnail image of WSI with regions of interest identified
   - A segmentation mask highlighting segmented regions of the WSI
