@@ -40,14 +40,15 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
   - Excel file contains statistics on identified artifacts
   - A folder named `qualified` containing qualified tiles
   - A folder named `unqualified` containing unqualified tiles
+- You can adjust the testing parameters in `test_wsi.py`
 
 
 # Training
 
-- Visit https://drive.google.com/drive/folders/1mbnLH1JIztTMw7Cgv8pSzNxba-aGv1jT?usp=share_link and download the artifact datasets
+- Visit https://drive.google.com/drive/folders/1mbnLH1JIztTMw7Cgv8pSzNxba-aGv1jT?usp=share_link and download the develpment artifact datasets (and external validation dataset)
 - Extract and place the dataset into a folder named `train_dataset`
 - Within `train_dataset`, refer to the example files provided to understand the structure
-- Create two files, `train_images.txt` and `train_masks.txt`, with lists of the corresponding image and mask paths, that used for training. The datset can be split to training (e.g., 85%) and testing (e.g., 15%)
+- Create two files, `train_images.txt` and `train_masks.txt`, with lists of the corresponding image and mask paths, that used for training. The dataset can be split to training (e.g., 85%) and testing (e.g., 15%)
 
      Example content for `train_images.txt`:
      ```
@@ -69,48 +70,15 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
      ```python
      wandb.login(key='your_actual_key_here')
      ```
-
-### 5. **Run the Training**:
-   - Open a terminal in the directory where `train.py` is located.
+   - Open a terminal in the directory where `train.py` is located
    - Run the following command to start the training:
      ```bash
      python train.py
      ```
-
-### 6. **Track and Visualize the Training Process**:
-   - When training starts, a link to the Weights and Biases interface will appear in the terminal.
-   - Click on the link to track and visualize the progress of your training.
-
-### 7. **Find the Saved Weights**:
-   - After the training is complete, the weights will be saved in the `logs` folder within your project directory.
-
-Let me know if you need help with any specific step!
-
-
-
-
-
-
-
-
-
-download the artifact datasets from: https://drive.google.com/drive/folders/1mbnLH1JIztTMw7Cgv8pSzNxba-aGv1jT?usp=share_link
-
-
-put the dataset into folder "train_dataset"
-
-generate trnaing and testing image lists  "train_images.txt" and "train_masks.txt". see  the examples are provided in folder "train_dataset" as a guidance
-
-you need to create an acoount in https://docs.wandb.ai, then get login key "wandb.login(key='xxxxxxxxxxxxx')"
-
-Open the file "trainer.py" and update the  the login key 
-
-in terminal run "python train.py" to start trnaing 
-
-you can track and visulize the trnaing process Weights and Biases interface  with bu cliking on the like generated in the trminal when the trnaing is started
-
-when the trnaing is finishe the weights are saved in the folder "logs"
-
+   - When training starts, a link to the Weights and Biases interface will appear in the terminal
+   - Click on the link to track and visualize the progress of your training
+   - After the training is complete, the weights will be saved in the `logs` folder within your project directory
+   - You can adjust the training parameters in `train.py` 
 
 
 
