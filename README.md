@@ -2,7 +2,7 @@
 ![WSI-QA](./WSI-QA.bmp)
 # Abstract: 
 In recent years, the use of deep learning (DL) methods, including convolutional neural networks (CNNs) and vision transformers (ViTs), has significantly advanced computational pathology, enhancing both diagnostic accuracy and efficiency. Whole Slide Imaging (WSI) plays a crucial role by providing detailed tissue samples for the analysis and training of DL models. However, WSIs often contain regions with artifacts such as tissue folds, blurring, as well as non-tissue regions (background), which can negatively impact DL model performance in diagnostic tasks. These artifacts are diagnostically irrelevant and can lead to inaccurate results. This paper proposes a fully automatic DL pipeline for WSI Quality Assessment (WSI-QA) that uses a fused model combining CNNs and ViTs to detect and exclude WSI regions with artifacts, ensuring that only qualified WSI regions are used to build DL-based computational pathology applications. The proposed pipeline employs a pixel-based segmentation model to classify WSI regions as either qualified or non-qualified based on the presence of artifacts. The proposed model was trained on a large and diverse dataset and validated with internal and external data from various human organs, scanners, and staining procedures. Quantitative and qualitative evaluations demonstrate the superiority of the proposed model, which outperforms state-of-the-art methods in WSI artifact detection. The proposed model consistently achieved over 95% accuracy, precision, recall, and F1 score across all artifact types. Furthermore, the WSI-QA pipeline shows strong generalization across different tissue types and scanning conditions.
-# Setting Up the Pipeline
+# Setting Up the Pipeline:
 1. System requirements:
 - Ubuntu 20.04 or 22.04
 - CUDA version: 12.2
@@ -26,7 +26,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
   pip install -r requirements.txt
 ```
 
-# Running Inference
+# Running Inference:
 
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
 - The pre-trained weights are provided in `pretrained_ckpt` folder
@@ -44,7 +44,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 - You can adjust the testing parameters in `test_wsi.py`
 
 
-# Training
+# Training:
 
 - Visit https://drive.google.com/drive/folders/1mbnLH1JIztTMw7Cgv8pSzNxba-aGv1jT?usp=share_link and download the develpment artifact datasets (and external validation dataset)
 - Extract and place the dataset into a folder named `train_dataset`
@@ -82,10 +82,10 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 - After the training is complete, the weights will be saved in the `logs` folder within your project directory
 
 
-# Acknowledgment
+# Acknowledgment:
 
 Some parts of this pipeline were adapted from work on [GitHub](https://github.com/pengsl-lab/DHUnet). If you use this pipeline, please make sure to cite their work.
 
 
-# Contact 
+# Contact: 
 If you have any questions or comments, please feel free to contact: falah.rahim@unn.no
