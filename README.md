@@ -71,7 +71,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
      ```python
      wandb.login(key='your_actual_key_here')
      ```
-- Adjust the training parameters in `train.py` if needed
+- Adjust the training parameters (e.g., epoch, learning rate) in `train.py` if needed
 - Open a terminal in the directory where `train.py` is located
 - Run the following command to start the training:
      ```bash
