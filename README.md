@@ -48,8 +48,8 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 
 - Visit https://drive.google.com/drive/folders/1mbnLH1JIztTMw7Cgv8pSzNxba-aGv1jT?usp=share_link and download the develpment artifact datasets (and external validation dataset)
 - Extract and place the dataset into a folder named `train_dataset`
-- Within `train_dataset`, refer to the example files provided to understand the structure
-- Create two files, `train_images.txt` and `train_masks.txt`, with lists of the corresponding image and mask paths, that used for training. The dataset can be split to training (e.g., 85%) and testing (e.g., 15%)
+- Within `train_dataset`, refer to the example files provided to understand the structure. First run `python train.py` as a demo to check if the pipeline is ready 
+- Create two files, `train_images.txt` and `train_masks.txt`, with lists of the corresponding image and mask paths, that used for training.
 
      Example content for `train_images.txt`:
      ```
