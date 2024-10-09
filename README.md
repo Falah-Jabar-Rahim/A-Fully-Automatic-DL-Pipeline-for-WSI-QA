@@ -29,6 +29,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 # Running Inference
 
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
+- The pre-trained weights are provided in `pretrained_ckpt` folder
 - In the terminal execute:
 ```bash
   python test_wsi.py
