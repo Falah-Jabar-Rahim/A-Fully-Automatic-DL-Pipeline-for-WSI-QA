@@ -71,6 +71,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
      ```python
      wandb.login(key='your_actual_key_here')
      ```
+- Adjust the training parameters in `train.py` if needed
 - Open a terminal in the directory where `train.py` is located
 - Run the following command to start the training:
      ```bash
@@ -79,7 +80,6 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 - When training starts, a link to the Weights and Biases interface will appear in the terminal
 - Click on the link to track and visualize the progress of your training
 - After the training is complete, the weights will be saved in the `logs` folder within your project directory
-- You can adjust the training parameters in `train.py` 
 
 
 # Acknowledgment
