@@ -82,8 +82,10 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
    - You can adjust the training parameters in `train.py` 
 
 
+#Acknowledgment
+
+Some parts of this pipeline were adapted from work on [GitHub](https://github.com/pengsl-lab/DHUnet). If you use this pipeline, please make sure to cite their work.
 
 
-
-
-
+# Contct 
+If you have any questions or comments, please feel free to contact: falah.rahim@unn.no
