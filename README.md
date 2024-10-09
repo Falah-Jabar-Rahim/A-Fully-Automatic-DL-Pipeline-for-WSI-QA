@@ -81,6 +81,12 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 - Click on the link to track and visualize the progress of your training
 - After the training is complete, the weights will be saved in the `logs` folder within your project directory
 
+# Results 
+
+![WSI-QA](./Performance-metrics.png)
+
+![WSI-QA](./WSI-Segmentation.png)
+
 
 # Acknowledgment:
 
