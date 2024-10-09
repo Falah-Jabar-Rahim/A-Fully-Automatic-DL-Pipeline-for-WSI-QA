@@ -1,0 +1,16 @@
+train_dataset/artifact-free/images/1.png
+train_dataset/artifact-free/images/2.png
+train_dataset/artifact-free/images/3.png
+train_dataset/artifact-free/images/4.png
+train_dataset/artifact-free/images/5.png
+train_dataset/blur/images/1.png
+train_dataset/blur/images/2.png
+train_dataset/blur/images/3.png
+train_dataset/blur/images/4.png
+train_dataset/blur/images/5.png
+train_dataset/fold/images/1.png
+train_dataset/fold/images/2.png
+train_dataset/fold/images/3.png
+train_dataset/fold/images/4.png
+train_dataset/fold/images/5.png
+

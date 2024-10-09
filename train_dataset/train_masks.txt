@@ -1,0 +1,16 @@
+train_dataset/artifact-free/mask/1.png
+train_dataset/artifact-free/mask/2.png
+train_dataset/artifact-free/mask/3.png
+train_dataset/artifact-free/mask/4.png
+train_dataset/artifact-free/mask/5.png
+train_dataset/blur/mask/1.png
+train_dataset/blur/mask/2.png
+train_dataset/blur/mask/3.png
+train_dataset/blur/mask/4.png
+train_dataset/blur/mask/5.png
+train_dataset/fold/mask/1.png
+train_dataset/fold/mask/2.png
+train_dataset/fold/mask/3.png
+train_dataset/fold/mask/4.png
+train_dataset/fold/mask/5.png
+
