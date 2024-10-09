@@ -63,23 +63,23 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
      path/to/mask2.png
      ...
      ```
-   - Create an account on [Weights and Biases](https://docs.wandb.ai)
-   - After signing up, go to your account settings and obtain your API key. It will look something like: `wandb.login(key='xxxxxxxxxxxxx')`
-   - Open the file `trainer.py`
-   - Find the line where the Weights and Biases login is required
-   - Update it with your API key like this:
+- Create an account on [Weights and Biases](https://docs.wandb.ai)
+- After signing up, go to your account settings and obtain your API key. It will look something like: `wandb.login(key='xxxxxxxxxxxxx')`
+- Open the file `trainer.py`
+- Find the line where the Weights and Biases login is required
+- Update it with your API key like this:
      ```python
      wandb.login(key='your_actual_key_here')
      ```
-   - Open a terminal in the directory where `train.py` is located
-   - Run the following command to start the training:
+- Open a terminal in the directory where `train.py` is located
+- Run the following command to start the training:
      ```bash
      python train.py
      ```
-   - When training starts, a link to the Weights and Biases interface will appear in the terminal
-   - Click on the link to track and visualize the progress of your training
-   - After the training is complete, the weights will be saved in the `logs` folder within your project directory
-   - You can adjust the training parameters in `train.py` 
+- When training starts, a link to the Weights and Biases interface will appear in the terminal
+- Click on the link to track and visualize the progress of your training
+- After the training is complete, the weights will be saved in the `logs` folder within your project directory
+- You can adjust the training parameters in `train.py` 
 
 
 # Acknowledgment
