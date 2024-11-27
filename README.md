@@ -26,6 +26,11 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
   pip install -r requirements.txt
 ```
 
+# Pretrained Weights:
+
+Download the pretrained weights from this link: https://drive.google.com/drive/folders/1mfCa6YiyFgbrjwOxLUKOKeA3JlIjDQ77?usp=drive_link
+Place the downloaded weights into the `pretrained_ckpt` folder.
+
 # Inference:
 
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
