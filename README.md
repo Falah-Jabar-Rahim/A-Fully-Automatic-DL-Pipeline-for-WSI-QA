@@ -26,6 +26,12 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
   pip install -r requirements.txt
 ```
 
+
+# Datasets:
+
+- Contact the corresponding author to access the datasets described in the paper.
+- The datasets are available for research purposes only.
+
 # Pretrained Weights:
 
 - Download the pretrained weights from this link: https://drive.google.com/drive/folders/1mfCa6YiyFgbrjwOxLUKOKeA3JlIjDQ77?usp=drive_link
