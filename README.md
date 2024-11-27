@@ -28,8 +28,8 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 
 # Pretrained Weights:
 
-Download the pretrained weights from this link: https://drive.google.com/drive/folders/1mfCa6YiyFgbrjwOxLUKOKeA3JlIjDQ77?usp=drive_link
-Place the downloaded weights into the `pretrained_ckpt` folder.
+- Download the pretrained weights from this link: https://drive.google.com/drive/folders/1mfCa6YiyFgbrjwOxLUKOKeA3JlIjDQ77?usp=drive_link
+- Place the downloaded weights into the `pretrained_ckpt` folder.
 
 # Inference:
 
