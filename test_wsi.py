@@ -73,7 +73,7 @@ parser.add_argument('--wsi_folder', default="test_wsi", type=str, help='folder c
 parser.add_argument('--cpu_workers', default=40, type=int, help='number of cpu workers')
 parser.add_argument('--save_seg', default=1, type=int, help='to save tile segmentation result')
 parser.add_argument('--back_thr', default=50, type=int, help='% of background to tolerate')
-parser.add_argument('--blur_fold_thr', default=20, type=int, help='% of blur and fold to to tolerate')
+parser.add_argument('--blur_fold_thr', default=20, type=int, help='% of blur and fold to tolerate')
 
 
 args = parser.parse_args()
