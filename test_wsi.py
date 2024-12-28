@@ -68,7 +68,7 @@ parser.add_argument('--z_spacing', default=1, type=int, help='Test throughput on
 parser.add_argument('--batch_size', type=int, default=128, help='batch_size per gpu')
 parser.add_argument('--img_size', type=int, default=270, help='required tile size (Options:270, 540, or 1080)')
 parser.add_argument('--wsilevel', default=0, type=int, help='level from open slide to read')
-parser.add_argument('--thumbnail_size', default=5000, type=int, help='required wsi thumbnail resolution')
+parser.add_argument('--thumbnail_size', default=1000, type=int, help='required wsi thumbnail resolution')
 parser.add_argument('--wsi_folder', default="test_wsi", type=str, help='folder contains wsi images')
 parser.add_argument('--cpu_workers', default=40, type=int, help='number of cpu workers')
 parser.add_argument('--save_seg', default=1, type=int, help='to save tile segmentation result')
