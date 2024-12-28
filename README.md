@@ -55,7 +55,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 - You can adjust the testing parameters on line 67 of `test_wsi.py`
 - If your WSI image has a format other than .svs or .mrxs, please modify line 143 in `test_wsi.py`
 - It is recommended to use a tile size of 270 × 270 pixels
-- To generate a high-resolution thumbnail image and segmentation mask, you can adjust the `thumbnail_size` parameter in test_wsi.py`. However, note that this will increase the execution time.
+- To generate a high-resolution thumbnail image and segmentation mask, you can adjust the `thumbnail_size` parameter in `test_wsi.py`. However, note that this will increase the execution time.
 
 
 # Training:
