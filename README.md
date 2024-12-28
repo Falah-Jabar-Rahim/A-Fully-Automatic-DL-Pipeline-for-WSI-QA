@@ -47,7 +47,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 ```
 - After running the inference, you will obtain the following outputs in `test_wsi` folder:
   - A thumbnail image of WSI
-  - A thumbnail image of WSI with regions of interest identified
+  - A thumbnail image of WSI with regions of interest (ROI) identified
   - A segmentation mask highlighting segmented regions of the WSI
   - Excel file contains statistics on identified artifacts
   - A folder named `qualified` containing qualified tiles
