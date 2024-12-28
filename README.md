@@ -52,7 +52,7 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
   - Excel file contains statistics on identified artifacts
   - A folder named `qualified` containing qualified tiles
   - A folder named `unqualified` containing unqualified tiles
-- You can adjust the testing parameters in `test_wsi.py`
+- You can adjust the testing parameters on line 67 of `test_wsi.py`
 - If your WSI image has a format other than .svs or .mrxs, please modify line 143 in `test_wsi.py`
 - It is recommended to use a tile size of 270 × 270 pixels
 
