@@ -30,11 +30,11 @@ In recent years, the use of deep learning (DL) methods, including convolutional 
 # Datasets:
 
 - Contact the corresponding author to access the datasets described in the paper.
-- The datasets will be available soon for research purposes only.
+- The datasets (only tiles and segmentation masks) are available for research purposes only.
 
 # Pretrained Weights:
 
-- Download the pretrained weights from this link: https://drive.google.com/drive/folders/1mfCa6YiyFgbrjwOxLUKOKeA3JlIjDQ77?usp=drive_link
+- Download the pretrained weights from this link: https://drive.google.com/drive/folders/1HCp_OT15VIHu52xmaKltnktdRSVMQvfV?usp=share_link
 - Place the downloaded weights into the `pretrained_ckpt` folder.
 
 # Inference:
