@@ -35,7 +35,7 @@
 
 # Pretrained Weights:
 
-- Download the pretrained weights from this link: https://drive.google.com/drive/folders/1HCp_OT15VIHu52xmaKltnktdRSVMQvfV?usp=share_link
+- Download the pretrained weights from this link: [Weights](https://drive.google.com/drive/folders/1HCp_OT15VIHu52xmaKltnktdRSVMQvfV?usp=share_link)
 - Place the downloaded weights into the `pretrained_ckpt` folder.
 
 # Inference:
